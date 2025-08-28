@@ -3,7 +3,7 @@
 
 int main() {
     int x, result;
-   printf("Enter a value for a: ");
+   printf("Enter a value of a: ");
 
     scanf("%d", &x);
     result = (++x * 3) - 10;
