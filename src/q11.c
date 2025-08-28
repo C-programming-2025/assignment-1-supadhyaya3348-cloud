@@ -5,9 +5,8 @@ int main() {
     printf("Enter a value for a: ");
     scanf("%d", &a);
 
-    // Expression directly inside printf
+    // Perform operation directly in printf
     printf("%d\n", (++a) * 3 - 10);
 
     return 0;
 }
-
