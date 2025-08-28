@@ -2,12 +2,10 @@
 
 int main() {
     int n;
-
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    
-    printf("%d is %s a multiple of 3 or 5.\n", n, (n % 3 == 0 || n % 5 == 0) ? "" : "not");
+    printf("%d\n", (n > 0 && n % 2 == 0));
 
     return 0;
 }

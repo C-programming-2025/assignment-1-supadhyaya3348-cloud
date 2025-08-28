@@ -1,1 +1,17 @@
-// Write a C expression that performs the following operations in a single line: increment a variable by 1, multiply it by 3, and subtract 10.
+
+#include <stdio.h>
+
+int main() {
+    int a, result;
+
+    printf("Enter a value for a: ");
+    scanf("%d", &a);
+
+    
+    result = (++a) * 3 - 10;
+
+    
+    printf("After incrementing a by 1, multiplying by 3, and subtracting 10, the result is: %d\n", result);
+
+    return 0;
+}

@@ -1,1 +1,18 @@
-// Write a C expression that calculates the square root of the sum of two numbers, rounded to the nearest integer.
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double x, y;
+    int result;
+
+    printf("Enter first number: ");
+    scanf("%lf", &x);
+    printf("Enter second number: ");
+    scanf("%lf", &y);
+
+    result = (int)round(sqrt(x + y));
+
+    printf("Rounded square root of sum: %d\n", result);
+
+    return 0;
+}
