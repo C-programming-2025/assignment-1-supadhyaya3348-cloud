@@ -3,7 +3,8 @@
 
 int main() {
     int x, result;
-    printf("Enter a number: ");
+   printf("Enter a value for a: ");
+
     scanf("%d", &x);
     result = (++x * 3) - 10;
     printf("After incrementing by 1, multiplying by 3, and subtracting 10: %d\n", result);
