@@ -11,7 +11,7 @@ int main() {
     scanf("%d", &c);
 
 
-    printf("Condition 'a == b and b != c' is %s.\n", (a == b && b != c) ? "true" : "false");
+    printf("Condition 'a == b and b != c' is %d.\n", (a == b && b != c) ? 1 : 0);
 
     return 0;
 }

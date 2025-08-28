@@ -11,7 +11,8 @@ int main() {
     int is_power_of_2 = (num > 0 && (num & (num - 1)) == 0);
 
 
-    printf("%d is %s a power of 2.\n", num, is_power_of_2 ? "" : "not");
+  
+  printf("%d", is_power_of_2);
 
     return 0;
 }
