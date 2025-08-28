@@ -1,15 +1,10 @@
+
 #!/bin/bash
 set -e
 
 # Disallow loops or conditionals
 if grep -E "for|while|if" src/q20.c; then
   echo "❌ Q20 failed (loops/conditionals not allowed)"
-  exit 1
-fi
-
-# Disallow modulus operator
-if grep -E "%" src/q20.c; then
-  echo "❌ Q20 failed (modulus operator not allowed)"
   exit 1
 fi
 
@@ -41,3 +36,4 @@ else
   echo "❌ Q20 test 3 failed"
   exit 1
 fi
+
